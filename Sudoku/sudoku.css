@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(to right, #97D3DD, #BB9ADF);
+    font-family: Courier New, monospace;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+h1 {
+    font-family: Chalkduster, fantasy;
+    color: #280053;
+    text-align: center;
+}
+
+#errors{
+    font-family: Blippo, fantasy;
+    color: coral;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgb(202, 198, 198);
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#digits {
+    width: 450px;
+    height: 50px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    background-color: #C6DEF1;
+    margin: 2px;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line{
+    border-right: 1px solid black;
+}
+
+.added-number{
+    color: purple;
+}
